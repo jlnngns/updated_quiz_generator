@@ -1,5 +1,5 @@
 import tkinter as tk
-from quiz_creator_reader import QuizCreatorReader
+from quiz_creator.quiz_creator_reader import QuizCreatorReader
 
 def main():
     root = tk.Tk()
