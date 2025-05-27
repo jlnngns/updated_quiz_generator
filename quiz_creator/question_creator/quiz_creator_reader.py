@@ -1,8 +1,8 @@
 import tkinter as tk
 from tkinter import messagebox
-from quiz_creator.question_entry import QuestionEntry
-from quiz_creator.answer_entry import AnswerEntry
-from quiz_creator.correct_answer_entry import CorrectAnswerEntry
+from question_entry import QuestionEntry
+from answer_entry import AnswerEntry
+from correct_answer_entry import CorrectAnswerEntry
 
 class QuizCreatorReader:
     def __init__(self, root):
